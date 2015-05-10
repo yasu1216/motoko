@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ja" prefix="og:http://www.motoko.tokyo.jp"
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>もとにゃんの部屋</title>
+	<meta name="author" conetent="yasu1216" />
+	<meta name="description" content="200年に一度（ぐらい）現れる蛙の妖精、もとこなっぴー" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="keywords" content="蛙、カエル、ぬいぐるみ、もとこ、motoko" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="shortcut icon" href="手形.ico">
+
+	<meta property="og:title" content="もとにゃんの部屋">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://www.motoko.tokyo.jp">
+	<meta property="og:description" content="200年に一度（ぐらい）現れる蛙の妖精、もとこなっぴー">
+	<meta property="og:site_name" content="motoko 紹介サイト">
+	<meta property="og:image" content="imgs/エンボカ1.jpg">
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<link href="share-button.css" rel="stylesheet">
+
+
+	<style>
+
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#section1,
+	#section3,
+	#section4{
+		padding: center 0;
+		background-color: #333333;
+		background-size: contain;
+	}
+
+	#section0 h1,
+	#section1 h1,
+	#section2 h1,
+	#section3 h1,
+	#section4 h1{
+		position: relative;
+		text-align: center;
+		top: 200px;
+	}
+
+	#section3 p{
+		position: relative;
+		text-align: center;
+		top: 30px;
+	}
+
+	#slide1,
+	#slide2,
+	#slide3,
+	#slide4,
+	#slide5,
+	#slide6,
+	#slide7,
+	#slide8,
+	#slide9{
+		padding: center 0;
+		background-color: #333333;
+		background-size: contain;
+	}
+
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(imgs/カフェ2.jpg);
+	}
+	#section1{
+		background-image: url(imgs/陶器.jpg);
+	}
+	#section3{
+		background-image: url(imgs/ベッド.jpg);
+	}
+	#section4{
+		background-image: url(imgs/誕生日.jpg);
+	}
+
+
+ 	/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url(imgs/ちびたん.jpg);
+	}
+	#slide2{
+		background-image: url(imgs/ホーム.jpg);
+	}
+	#slide3{
+		background-image: url(imgs/海.jpg);
+	}
+	#slide4{
+		background-image: url(imgs/エンボカ1.jpg);
+	}
+	#slide5{
+		background-image: url(imgs/プロフ.jpg);
+	}
+	#slide6{
+		background-image: url(imgs/みんな.jpg);
+	}
+	#slide7{
+		background-image: url(imgs/charm1.jpg);
+	}
+	#slide8{
+		background-image: url(imgs/花見2.jpg);
+	}
+	#slide9{
+		background-image: url(imgs/花見1.jpg);
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+	/*.intro h1{
+		vertical-align: 10px;
+	}*/
+
+	</style>
+
+
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+	<script src="share-button.js"></script>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+			  // sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+			  anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', 'lastPage'],
+			  menu: '#menu',
+			  css3:true,
+			  continuousVertical: true,
+			  responsive: 900
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">Profile</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">Photo</a></li>
+	<li data-menuanchor="4thPage"><a href="#4thPage">Contact</a></li>
+	<li data-menuanchor="lastPage"><a href="#lastPage">Special</a></li>
+</ul>
+
+
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<h1>Motoko</h1>
+		<p1>はじめまして。もとにゃん（本名もとこ）だよ！</p1>
+		<p2>もとにゃんの紹介をいっぱいしてるから見ていってね！</p2>
+	</div>
+	
+	<div class="section" id="section1">
+		<h1>Profile</h1>
+	</div>
+	
+	<div class="section" id="section2">
+		<div class="slide" id="slide1"><h1>Photo Gallery</h1></div>
+	    <div class="slide" id="slide2"><h1></h1></div>
+	    <div class="slide" id="slide3"><h1></h1></div>
+	    <div class="slide" id="slide4"><h1></h1></div>
+	    <div class="slide" id="slide5"><h1></h1></div>
+	    <div class="slide" id="slide6"><h1></h1></div>
+	    <div class="slide" id="slide7"><h1></h1></div>
+	    <div class="slide" id="slide8"><h1></h1></div>
+	    <div class="slide" id="slide9"><h1></h1></div>
+	</div>
+	
+	<div class="section" id="section3">
+			<form method="post" action="example.cgi">
+				<p3>NAME<br/><input type="text" name="name"></p>
+				<p3>EMAIL<br/><input type="text" name="email"></p>
+				<p3>TEL<br/><input type="text" name="tel"></p>
+				<p3>Message<br/><textarea name="example" cols="50" rows="10"></textarea></p>
+				<p3><input type="submit" value="送信する"></p>
+			</form>
+			<h1>Contact</h1>
+	</div>
+
+	<div class="section" id="section4">
+	</div>
+
+</div>
+
+
+<div id="infoMenu">
+	<ul class="social-button-syncer">
+		<!-- Twitter -->
+		<li class="sc-tw"><a data-url="http://motoko.tokyo.jp" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true">ツイート</a></li>
+
+		<!-- Facebook -->
+		<li class="sc-fb"><div class="fb-like" data-href="http://motko.tokyo.jp" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div></li>
+
+		<!-- LINE [画像は公式ウェブサイトからダウンロードして下さい] -->
+		<li class="sc-li"><a href="http://line.me/R/msg/text/?http://motoko.tokyo.jp"><img src="imgs/linebutton_36x60.png" width="36" height="60" alt="LINEに送る" class="sc-li-img"></a></li>
+	</ul>
+</div>
+<!-- Facebook用 -->
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+</body>
+</html>
